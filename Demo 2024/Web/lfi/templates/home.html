@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story time</title>
+</head>
+<body>
+    <a>
+        Story reader for youu~ &lt;3
+    </a>
+    <br><br>
+    <form method="GET">
+        <input type="text" id="file" name="file" value="story.txt">
+    </form>
+    <br>
+    <a href="/?file=password.txt">
+        password.txt
+    </a>
+    <br>
+    <a href="/?file=homework.txt">
+        homework.txt
+    </a>
+    <br>
+    <a href="/?file=Kembali Ke Pulau Berk 1.txt">
+        Kembali Ke Pulau Berk 1.txt
+    </a>
+    <br>
+    <a href="/?file=Kembali Ke Pulau Berk 2.txt">
+        Kembali Ke Pulau Berk 2.txt
+    </a>
+    <br>
+    <a href="/?file=Kembali Ke Pulau Berk 3.txt">
+        Kembali Ke Pulau Berk 3.txt
+    </a>
+    <br>
+    <a href="/?file=Lorem Ipsum.txt">
+        Lorem Ipsum.txt
+    </a>
+    <p>{{ file | safe }}</p>
+</body>
+</html>

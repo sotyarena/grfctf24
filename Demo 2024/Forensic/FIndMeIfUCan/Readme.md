@@ -1,0 +1,10 @@
+## FIndMeIfUCan
+Author: `Larva`
+
+GRF24{Finally_U_got_The_Real_ONE_AOAOKWOAKWKAWKOAW}
+
+## Description
+HAHAHAHAHHAHAHAHAHA KAMU TIDAK AKAN BISA MENEMUKAN FLAG YANG AKU SEMBUNYIKAN HAHAHAHHAHAHAHHAHAHAHAHHAHA (ketawa villain)
+
+## Hint
+Do you know about `grep`
