@@ -1,36 +1,40 @@
 import string
+from math import gcd
 
 pairs = [
-    [198, 297],
-    [234, 351],
-    [218, 327],
-    [156, 208],
-    [190, 285],
-    [204, 306],
-    [224, 336],
-    [196, 294],
-    [570, 665],
-    [196, 294],
-    [98, 147],
-    [194, 291],
-    [230, 345],
-    [156, 208],
-    [665, 760],
-    [208, 312],
-    [202, 303],
-    [208, 312],
-    [102, 153]
+    [198, 297], # 99
+    [234, 351], # 117
+    [218, 327], # 109
+    [156, 208], # 52
+    [190, 285], # 95
+    [204, 306], # 102
+    [224, 336], # 112
+    [196, 294], # 98
+    [570, 665], # 95
+    [196, 294], # 98
+    [98, 147],  # 49
+    [194, 291], # 97
+    [230, 345], # 115
+    [156, 208], # 52
+    [665, 760], # 95
+    [208, 312], # 104
+    [202, 303], # 101
+    [208, 312], # 104
+    [102, 153]  # 51
 ]
 
 def main():
-    test = ""
+    result = ""
     for index, pair in enumerate(pairs):
         print(f'\n{index+1}. {pair[0]} & {pair[1]}')
         check = input("gcd: ")
         assert any(c in string.digits for c in check), "Invalid input!"
-        test += check + " "
-    print(f"\nRekap Jawaban:\n{test}")
+        if int(check) != gcd(pair[0], pair[1]):
+            print("\nSalah!")
+            exit()
+        result += chr(int(check))
     print("\nTerima kasih telah mengerjakan tes ini!")
+    print("ctfgrf24{" + result + "}")
 
         
 
