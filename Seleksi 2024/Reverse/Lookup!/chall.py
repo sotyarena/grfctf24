@@ -1,7 +1,7 @@
 import random
 import string
 
-FLAG = "Pssstt, please don't tell anyone about my secret ==> ctfgrf24{h4ny4_5u67i7u5i_ciph3r_6i454}"
+SECRET = "REDACTED"
 
 def get_charset():
     chars = list(string.ascii_letters + string.digits)
@@ -9,9 +9,9 @@ def get_charset():
 
     return chars
 
-def sub(str, lookup1, lookup2):
+def sub(strings, lookup1, lookup2):
     result = ""
-    for c in str:
+    for c in strings:
         if not c in lookup1:
             result += c
         else:
@@ -19,12 +19,12 @@ def sub(str, lookup1, lookup2):
     return result
 
 def main():
-    global FLAG
+    global SECRET
 
     lookup1 = get_charset()
     lookup2 = get_charset()
 
-    result = sub(FLAG, lookup1, lookup2)
+    result = sub(SECRET, lookup1, lookup2)
 
     dist = open("dist.txt", "w")
     dist.write(f"lookup1 = {lookup1}\n")
