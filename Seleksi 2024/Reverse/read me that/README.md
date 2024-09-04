@@ -6,6 +6,6 @@ ctfgrf24{yayyforreading_me!!_29cfx7}
 
 ## Description
 
-Can you give the program some input?
+Can you read what's inside the program?
 
 ## Hint
