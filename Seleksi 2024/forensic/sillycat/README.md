@@ -11,3 +11,8 @@ The cat is so politee! i've heard some rumors that this cat is giving flag, for 
 So I asked for a flag politely, but he only gave me this two identical image, what does that mean???
 
 ## Hint
+
+## How-To-Solve
+
+- Gunakan image editing software (photoshop, gimp)
+- stegsolve juga bisa
