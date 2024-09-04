@@ -12,3 +12,5 @@ Flag format: `ctfgrf24{}`
 ## Hint
 
 - Use Exiftool
+- https://www.dcode.fr/elder-futhark
+  
