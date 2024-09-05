@@ -1,6 +1,6 @@
 # 500cigarettes
 
-Author: `raran:
+Author: `raran`
 
 ctfgrf24{d0n'tsm0ke_itsn0th3althy!_LF62zx}
 
