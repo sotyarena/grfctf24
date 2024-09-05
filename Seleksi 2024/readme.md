@@ -21,7 +21,7 @@
     </tr>
     <tr>
         <td>Hard</td>
-        <td>100</td>
+        <td>500</td>
         <td>10</td>
         <td>300</td>
     </tr>
