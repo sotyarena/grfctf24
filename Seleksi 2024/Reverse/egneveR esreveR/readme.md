@@ -1,6 +1,6 @@
 # egneveR esreveR
 
-Author: `Myra0106` 
+Author: `Myra` 
 <br>
 ctfgrf24{C4p7ur3_Th3_F149_24}
 

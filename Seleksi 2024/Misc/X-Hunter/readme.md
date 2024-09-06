@@ -1,6 +1,6 @@
 # What
 
-Author: `Myra0106` 
+Author: `Myra` 
 <br>
 ctfgrf24{r3gistr4tion_t0_f1nd_the_b3st_0ne_a3hvj32q8}
 

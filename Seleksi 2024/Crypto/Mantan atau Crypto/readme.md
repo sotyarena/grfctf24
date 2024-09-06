@@ -1,6 +1,6 @@
 # Mantan atau Crypto
 
-Author: `Myra0106` 
+Author: `Myra` 
 <br>
 grfctf24{yah4h4h4_m4u_aj4_d1k3rjain_sam4_X0R_paDah4l_kamW_y4n9_ny4kit1n_Akuh_9sf45b8}
 

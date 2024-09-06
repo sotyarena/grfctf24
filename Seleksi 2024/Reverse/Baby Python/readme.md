@@ -1,6 +1,6 @@
 # Baby Python
 
-Author: `Myra0106` 
+Author: `Myra` 
 <br>
 grfctf24{s0m3_of_p7ogr4m_us3_ar9v_t0_run_9f56xs}
 

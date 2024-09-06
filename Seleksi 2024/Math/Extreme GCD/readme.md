@@ -1,6 +1,6 @@
 # Extreme GDC
 
-Author: `Myra0106` 
+Author: `Myra` 
 <br>
 ctfgrf24{cum4_fpb_b1as4_heh3}
 

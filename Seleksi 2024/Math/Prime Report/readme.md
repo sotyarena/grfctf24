@@ -1,6 +1,6 @@
 # Prime Report
 
-Author: `Myra0106` 
+Author: `Myra` 
 <br>
 ctfgrf24{0b0b46209a9227f858ceacd522fcc356}
 
