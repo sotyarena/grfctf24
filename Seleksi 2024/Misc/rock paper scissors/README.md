@@ -2,7 +2,7 @@
 
 Author: `raran`
 
-ctfgrf24{ba7u_gun7ing_kertaSS_dan_win}
+ctfgrf24{ba7u_gun7ing_kertazz_dan_win}
 
 ## Description
 
