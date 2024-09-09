@@ -1,4 +1,4 @@
-# W. D. Gaster
+# Entry Number 17
 
 Author: `Myra` 
 <br>
