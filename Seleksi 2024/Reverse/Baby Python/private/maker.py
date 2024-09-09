@@ -1,7 +1,7 @@
 import base64
 from cryptography.fernet import Fernet
 
-FLAG = "grfctf24{s0m3_of_p7ogr4m_us3_ar9v_t0_run_9f56xs}"
+FLAG = "ctfgrf24{s0m3_of_p7ogr4m_us3_ar9v_t0_run_9f56xs}"
 
 key = b"veryveryveryveryveryverySafeKeyy"
 

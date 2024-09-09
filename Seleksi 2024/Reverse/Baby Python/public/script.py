@@ -2,7 +2,7 @@ import sys
 import base64
 from cryptography.fernet import Fernet
 
-FLAG = b'gAAAAABm2JWmEc0ytyOKlDhNrYDSD_moZUYoi7e1J4c3TM7i8YiVeDtKowBqA-DSWZ6a1GogS1JmdD_WU1FzLcz7LCXWKUO7R1Y5jlysmAWOr5WfiINg4mFHJ0SCYASIBZmnRcXv6mG5lkMBo2Q81cgNxGrQS5VhLA=='
+FLAG = b'gAAAAABm3rqEPOcpPuJgksDgaTjUgs490kQt4pfyfbM6NWM5CSV2CxxVsaVgZSYhyuHCRiqDuYqfQq2CUdIU3C30N2uzip4QDAAn_3m55yUuX6Rn-e47uAHTRf4-FhicxDjwXkrOUXCb_uMWNvzs4DsNrbwV9dL2Aw=='
 
 if len(sys.argv) == 1:
     print("Huh, I think you miss the reverse things, don't you?")

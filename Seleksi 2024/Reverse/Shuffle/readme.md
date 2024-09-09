@@ -2,7 +2,7 @@
 
 Author: `Myra` 
 <br>
-grfctf24{jUs7_a_tr4np0sit10n_tri4l_35g89f}
+ctfgrf24{jUs7_a_tr4np0sit10n_tri4l_35g89f}
 
 ## Description
 
