@@ -16,6 +16,5 @@ for j, char in enumerate(text.read()):
     if i == len(FLAG):
         break
     if char == FLAG[i]:
-        print(FLAG[i], "found!")
         flag.write(f"{j}\n")
         i += 1

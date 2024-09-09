@@ -10,4 +10,4 @@ Ternyata ijazah sebelumnya PALSU. Karena polisi menemukan file ijazah yang asli.
 
 ## Hint
 
-- cwk itu cowok apa cewek si?
+- CWK itu cowok apa cewek si?

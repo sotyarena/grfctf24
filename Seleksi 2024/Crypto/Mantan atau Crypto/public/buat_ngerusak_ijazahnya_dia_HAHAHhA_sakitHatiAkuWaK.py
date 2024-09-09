@@ -1,6 +1,6 @@
 import sys
 
-message = b"""
+message = """
 Hai. Sudah XX bulan aku pacaran denganmu.
 Aku kira dengan nampanmu yang menawan itu
 ternyata hatimu tidak semenawan yang kukira
@@ -9,7 +9,7 @@ Mungkin nanti kau akan mengadu ke polisi
 namun sebelum itu terjadi, aku telah membuat ini
 supaya kau tidak bisa kuliah dan keterima kerja
 HAHhHaaAHHAhahAaHahaahAAHAHAHHAHA =D
-""".hex()
+"""
 
 def mampusLuwh(biarin, akuTerlanjurSakitHati):
     iniAkibatnyaKloKamuJhtKeAku = bytearray()
@@ -22,7 +22,7 @@ if __name__ == "__main__":
     if len(sys.argv) == 2:
         file = open(sys.argv[1], 'r')
         content = file.read()
-        result = mampusLuwh(content, message)
+        result = mampusLuwh(content, message.encode().hex())
         open('HahHAhahHhah', 'wb').write(result)
         print("HahHAhahHhah Mampuss:p")
     else:
