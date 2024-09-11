@@ -1,18 +1,17 @@
-FROM ubuntu:22.04
-
-RUN apt-get update \
-&& apt-get install -y socat \
-&& apt-get install -y gcc \
-&& apt-get install -y gcc-multilib \
-&& useradd -m -s /bin/rbash nightfury \
-&& chown root:root -R /home/ 
+FROM alpine:latest
 
 WORKDIR /home/nightfury
+
+RUN apk update \
+&& apk add --no-cache socat gcc musl-dev libc6-compat bash \
+&& ln -s /bin/bash /bin/rbash \
+&& adduser nightfury -D -h /home/nightfury -s /bin/rbash \
+&& chown root:root -R /home/ 
 
 COPY . .
 
 RUN gcc chall.c -o chall \
-&& chmod 755 -R /home/nightfury 
+&& chmod 755 -R /home/nightfury
 
 USER nightfury
 
